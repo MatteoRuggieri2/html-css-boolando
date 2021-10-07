@@ -36,6 +36,7 @@ img{
 /* image */
 .img-container{
     position: relative;
+    cursor: pointer;
 }
 
 .img-container:hover .image-n2{
