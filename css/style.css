@@ -24,6 +24,7 @@ img{
 .row{
     width: 100%;
     text-align: center;
+    margin: 20px 0;
 }
 
 .card{
@@ -46,6 +47,7 @@ img{
     top: 0;
 }
 
+/*Heart*/
 .heart{
     height: 40px;
     width: 40px;
@@ -62,19 +64,21 @@ img{
     cursor: pointer;
 }
 
+/*Tag*/
 .discount{
-    background-color: red;
+    background-color: #eb0037;
+    padding: 5px;
 }
 
 .eco-green{
-    background-color: green;
+    background-color: #00875a;
+    padding: 5px;
 }
 
 .info{
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
-    line-height: 30px;
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -82,7 +86,7 @@ img{
 
 .text-container{
     text-align: left;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 /* Brand */
@@ -97,7 +101,7 @@ div.text-container h3{
 }
 
 .price{
-    color: red;
+    color: #eb0037;
     font-size: 15px;
     font-weight: bold;
 }
