@@ -1,0 +1,88 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COMMON*/
+.container{
+    width: 70%;
+    margin: auto;
+
+    /*test*/
+    height: 1000px;
+    background-color: aquamarine;
+}
+
+/*BODY*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.row{
+    width: 100%;
+    text-align: center;
+
+    /*test*/
+    background-color: lightcoral;
+}
+
+.card{
+    width: 32%;
+    display: inline-block;
+
+    /*test*/
+    background-color: lightgreen;
+}
+
+.img-container{
+    position: relative;
+}
+
+.heart{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.discount{
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.eco-green{
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.info{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.text-container{
+    text-align: left;
+    padding: 5px 0;
+}
