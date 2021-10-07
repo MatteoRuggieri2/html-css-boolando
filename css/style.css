@@ -36,13 +36,20 @@ img{
 .card{
     width: 32%;
     display: inline-block;
-
-    /*test*/
-    background-color: lightgreen;
 }
 
+/* image */
 .img-container{
     position: relative;
+}
+
+.img-container:hover .image-n2{
+    display: none;
+}
+
+.image-n2{
+    position: absolute;
+    top: 0;
 }
 
 .heart{
@@ -84,5 +91,27 @@ img{
 
 .text-container{
     text-align: left;
-    padding: 5px 0;
+    padding: 10px 0;
+}
+
+/* Brand */
+div.text-container h4{
+    font-weight: normal;
+}
+
+/* Item Title */
+div.text-container h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.price{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price-discaunt{
+    text-decoration: line-through;
+    font-size: 15px;
 }
