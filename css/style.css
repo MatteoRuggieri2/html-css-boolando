@@ -39,13 +39,16 @@ img{
     cursor: pointer;
 }
 
-.img-container:hover .image-n2{
+.image-n2{
     display: none;
 }
 
-.image-n2{
-    position: absolute;
-    top: 0;
+.img-container:hover .image-n1{
+    display: none;
+}
+
+.img-container:hover .image-n2{
+    display: block;
 }
 
 /*Heart*/
@@ -56,7 +59,7 @@ img{
     font-size: 25px;
     background-color: white;
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 0;
 }
 
